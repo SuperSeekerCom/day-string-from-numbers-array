@@ -104,7 +104,7 @@ export function dayStringFromNumbers({
       dayString +
       `${index !== 0 && index !== arr.length - 1 ? `${separator} ` : ""}${
         index !== 0 && index === arr.length - 1 && and
-          ? `, and `
+          ? `${arr.length > 2 ? "," : ""} and `
           : index !== 0 && index === arr.length - 1 && !and
           ? `${separator} `
           : ""

@@ -4,6 +4,8 @@ import { dayStringFromNumbers } from ".."
 test.each([
   [[1, 2, 3], 0, undefined, undefined, "Monday, Tuesday, and Wednesday"],
   [[1, 2, 3], 7, undefined, undefined, "Monday, Tuesday, and Wednesday"],
+  [[2, 3], 7, undefined, undefined, "Tuesday and Wednesday"],
+  [[7], 7, undefined, undefined, "Sunday"],
   [[1, 2, 7], 7, " |", false, "Monday | Tuesday | Sunday"],
   [[0, 1, 2, 4], 0, " |", false, "Sunday | Monday | Tuesday | Thursday"],
   [[0, 1, 2, 4], 0, undefined, false, "Sunday, Monday, Tuesday, Thursday"],
