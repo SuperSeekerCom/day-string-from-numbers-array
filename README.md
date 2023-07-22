@@ -1,6 +1,7 @@
 # day-string-from-numbers-array
 
 [![install size](https://packagephobia.com/badge?p=day-string-from-numbers-array)](https://packagephobia.com/result?p=day-string-from-numbers-array)
+[![Coverage Status](https://coveralls.io/repos/github/SuperSeekerCom/day-string-from-numbers-array/badge.svg?branch=main)](https://coveralls.io/github/SuperSeekerCom/day-string-from-numbers-array?branch=main)
 
 day-string-from-numbers-array converts an array of weekday numbers to a string.
 
